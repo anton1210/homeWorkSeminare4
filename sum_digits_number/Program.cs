@@ -11,6 +11,6 @@ void Sum()
         sum = (num % 10) + sum;
         num = num / 10;
     }
-    Console.WriteLine(sum);
+    Console.WriteLine($"Сумма цифр введенного числа = {sum}");
 }
 Sum();
